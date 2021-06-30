@@ -1,9 +1,9 @@
 from flask import Flask, json, jsonify, request, make_response
 from tensorflow.keras.models import load_model
 import numpy as np
-from PIL import Image
-import sys
-import io
+#from PIL import Image
+#import sys
+#import io
 
 app = Flask(__name__)
 
