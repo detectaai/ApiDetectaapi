@@ -8,8 +8,8 @@ from tensorflow.keras.models import load_model
 app = Flask(__name__)
 
 longitud, altura = 224, 224
-modelo = 'static\Modelo\modelo.h5'
-pesos = 'static\Modelo\pesos.h5'
+modelo = 'modelo.h5'
+pesos = 'pesos.h5'
 cnn = load_model(modelo) 
 #cnn.load_weights(pesos) 
 
