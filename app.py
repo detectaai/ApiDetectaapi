@@ -1,5 +1,5 @@
 from flask import Flask, json, jsonify, request, make_response
-# from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model
 # import numpy as np
 #from PIL import Image
 #import sys
@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def Home():  
-  return 'API Para Detección de Autismo'
+  return 'API Para Detección de Autismo '
 
 # @app.route('/predict', methods=['POST'] )
 # def Predict():
