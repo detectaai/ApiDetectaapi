@@ -7,11 +7,11 @@ from tensorflow.keras.models import load_model
 
 app = Flask(__name__)
 
-# longitud, altura = 224, 224
-# modelo = 'Modelo\modelo.h5'
-# pesos = 'Modelo\pesos.h5'
-# cnn = load_model(modelo) 
-# cnn.load_weights(pesos) 
+longitud, altura = 224, 224
+modelo = 'Modelo\modelo.h5'
+pesos = 'Modelo\pesos.h5'
+cnn = load_model(modelo) 
+cnn.load_weights(pesos) 
 
 @app.route('/')
 def Home():  
